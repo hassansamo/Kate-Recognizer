@@ -32,18 +32,18 @@ def detect_faces(our_image):
     return img
 def main():
 
-    st.title("Made with ❤️ by Hassan Samo")
+    st.title("Kate Winslet Recognizer")
 
     html_temp = """
     <body style="background-color:red;">
     <div style="background-color:black ;padding:10px">
-    <h2 style="color:white;text-align:center;">Kate Winslet Recognizer</h2>
+    <h2 style="color:white;text-align:center;">Upload an image of Kate Winslet</h2>
     </div>
     </body>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    image_file = st.file_uploader("Upload an image of Kate Winslet", type=['jpg', 'png', 'jpeg'])
+    image_file = st.file_uploader("Made by Hassan Samo and Team", type=['jpg', 'png', 'jpeg'])
     if image_file is not None:
         our_image = Image.open(image_file)
         st.text("Original Image")
