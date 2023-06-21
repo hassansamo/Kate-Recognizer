@@ -21,7 +21,7 @@ def detect_faces(our_image):
         id, uncertainty = rec.predict(gray[y:y + h, x:x + w])
         print(id, uncertainty)
 
-        if (uncertainty< 90):
+        if (uncertainty< 53):
             if (id == 1):
                 name = "Kate Winslet"
                 cv2.putText(img, name, (x, y + h), cv2.FONT_HERSHEY_COMPLEX_SMALL, 2.0, (0, 0, 0))
