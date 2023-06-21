@@ -10,4 +10,6 @@ pinned: false
 ---
 
 # Kate-Recognizer
-A Computer Vision Project made my Hassan Samo
+Kate Recognizer is a face recognition system designed to identify and recognize Kate Winslet in photos. The project utilizes computer vision techniques, including face detection and the LBPH (Local Binary Patterns Histograms) algorithm for face recognition. It provides a user-friendly web application interface for easy interaction, allowing users to upload photos and determine if Kate Winslet is present in the image.
+
+
